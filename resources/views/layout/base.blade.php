@@ -16,7 +16,7 @@
         </header>
 
         <main>
-
+            @include('partials.bannerComics');
         </main>
 
         <footer>
