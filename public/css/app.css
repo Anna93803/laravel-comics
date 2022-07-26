@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
-
+@import 'partials/header';
 /* reset */
 * {
     padding: 0;
@@ -13,6 +13,68 @@ body {
 }
 
 .container {
-    max-width: 1200 px;
+    max-width: 1200px;
     margin: 0 auto;
 }
+
+/* header */
+
+header .header-Top {
+    background-color: #0282f9;
+    padding: 0.3125rem 0.625rem;
+    font-size: 0.8rem;
+    color: #fff;
+}
+
+header .row {
+    display: flex;
+    justify-content: right;
+    gap: 2.5rem;
+}
+
+.header-bottom .row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 140px;
+}
+
+.header-bottom ul {
+    display: flex;
+    height: 8.75rem;
+}
+
+.header-bottom ul li {
+    border-bottom: .125rem solid transparent;
+    text-transform: uppercase;
+    font-weight: 500;
+    line-height: 8.75rem;
+    padding-right: 1.875rem;
+    list-style: none;
+}
+
+.header-bottom a {
+    text-decoration: none;
+    color: black;
+}
+
+.header-bottom a:hover {
+    color: #0282f9;
+}
+.header-bottom li:hover {
+    color: #0282f9;
+    border-bottom: .25rem solid #0282f9;
+}
+
+.container-Search {
+    border-bottom: 0.125rem solid #0282f9;
+    display: flex;
+    gap: .5rem;
+    border-bottom: 0.125rem solid #0282f9;
+}
+
+.container-Search input {
+    border: none;
+    text-align: right;
+}
+
