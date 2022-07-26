@@ -12,6 +12,9 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+li {
+    list-style: none;
+}
 .container {
     max-width: 1200px;
     margin: 0 auto;
@@ -50,7 +53,6 @@ header .row {
     font-weight: 500;
     line-height: 8.75rem;
     padding-right: 1.875rem;
-    list-style: none;
 }
 
 .header-bottom a {
@@ -164,4 +166,30 @@ header .row {
     color: #fff;
     padding: .6875rem 2.1875rem;
     transition: 0.5s;
+}
+
+.bg-banner {
+    background-color: #0282f9;
+    padding: 1.875rem 0;
+}
+
+.bg-banner ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.bg-banner li a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #fff;
+    font-size: .75rem;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+.bg-banner img {
+    max-width: 50px;
+    margin-right: .9375rem;
 }
