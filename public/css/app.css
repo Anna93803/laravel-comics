@@ -78,3 +78,26 @@ header .row {
     text-align: right;
 }
 
+.bg-jumbo {
+    background-image: url("../images/jumbotron.jpg");
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: top center;
+    height: 400px;
+}
+
+.btn {
+    background-color: #0282f9;
+    cursor: pointer;
+    color: #fff;
+    position: absolute;
+    bottom: -1.25rem;
+    border: none;
+    font-weight: 700;
+    padding: .8125rem;
+    transition: 0.5s;
+}
+
+.btn:hover {
+    background-color: #7da4c9;
+}

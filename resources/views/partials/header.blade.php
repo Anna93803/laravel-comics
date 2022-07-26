@@ -34,8 +34,6 @@ $navLinks = [
 ?>
 
 
-
-
 <div class="header-Top">
     <div class="container">
         <div class="row">

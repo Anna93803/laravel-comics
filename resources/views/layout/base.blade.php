@@ -11,7 +11,8 @@
     <body>
 
         <header>
-            @include('partials.header')
+            @include('partials.header');
+            @include('partials.hero');
         </header>
 
         <main>
