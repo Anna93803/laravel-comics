@@ -11,17 +11,16 @@
     <body>
 
         <header>
-            @include('partials.header');
-            @include('partials.hero');
+            @include('partials.header')
+            @include('partials.hero')
         </header>
 
         <main>
-            @include('partials.bannerComics');
+            @include('partials.bannerComics')
         </main>
 
         <footer>
-
-            @include('partials.footer');
+            @include('partials.footer')
         </footer>
 
     </body>
