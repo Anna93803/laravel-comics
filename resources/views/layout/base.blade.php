@@ -21,7 +21,7 @@
 
         <footer>
 
-
+            @include('partials.footer');
         </footer>
 
     </body>
