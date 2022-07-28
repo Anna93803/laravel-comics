@@ -153,7 +153,7 @@ header .row {
 .cards span {
     color: #fff;
     position: absolute;
-    top: .3125rem;
+    top: -1.6875rem;
     left: .3125rem;
     padding: .3125rem .5rem;
     background-color: #0282f9;
@@ -282,4 +282,18 @@ header .row {
 .bg-footer-bottom li {
     padding-right: 8px;
 }
+.container-card {
+    display: flex;
+    justify-content: center;
+}
+.container-card .card {
+    max-width: 600px;
+    margin: 0 auto;
+    position: absolute;
+    color: white;
+    padding-top: 100px;
+}
 
+.card h2 {
+    padding-bottom: 20px;
+}
