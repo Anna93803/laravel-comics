@@ -264,9 +264,6 @@ header .row {
     transition: 0.5s;
 }
 
-/* hover */
-
-
 .bg-footer-bottom h4 {
     font-size: 1.125rem;
     color: #0282f9;
@@ -285,3 +282,4 @@ header .row {
 .bg-footer-bottom li {
     padding-right: 8px;
 }
+

@@ -20,3 +20,22 @@ Route::get('/', function () {
     return view('layout/base' , compact("comics"));
 });
 
+
+Route::get('/comic/{id}', function ($id) {
+    $comics = config("comics");
+
+    $comicsProducts = null;
+
+    foreach($comics as $comic) {
+        if($comic["id"] === intval($id)) {
+            $comicsProducts = $comic;
+            break;
+        }
+    }
+
+    if(is_null($comicsProducts)) {
+        abort("404");
+    }
+
+    return view('show' , $comicsProducts);
+});

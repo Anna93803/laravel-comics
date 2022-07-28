@@ -33,15 +33,17 @@ $linkBanner = [
     <div class="container">
         <div class="row">
             <div class="col">
-                @foreach ($comics as $comic)
+                @foreach($comics as $comic)
                     <div class="box-cards">
-                        <div class="cards">
+                        <a href="comic/{{$comic['id']}}" class="cards">
                             <img src="{{$comic['thumb']}}" alt="{{$comic['title']}}">
                             <h5>{{$comic['series'] }}</h5>
                             <span>{{ $comic['price'] }}</span>
-                        </div>
+                        </a>
                     </div>
                 @endforeach
+                @dump($comics);
+                @dump($comic);
             </div>
             <div class="col">
                 <button class="btn">LOAD MORE</button>

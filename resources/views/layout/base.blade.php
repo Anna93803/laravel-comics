@@ -16,8 +16,9 @@
         </header>
 
         <main>
-            {{-- @yield('page_content') --}}
+            @yield('page_content')
             @include('partials.bannerComics')
+            {{-- @include('show') --}}
         </main>
 
         <footer>
